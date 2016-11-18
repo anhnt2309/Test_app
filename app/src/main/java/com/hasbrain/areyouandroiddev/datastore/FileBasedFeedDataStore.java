@@ -21,7 +21,6 @@ public class FileBasedFeedDataStore implements FeedDataStore {
     public FileBasedFeedDataStore(Gson gson, InputStream jsonInputStream) {
         if (jsonInputStream == null) {
             throw new IllegalArgumentException("Json file should be provided");
-            
         }
         this.gson = gson;
         this.fileInputStream = jsonInputStream;
