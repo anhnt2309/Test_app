@@ -21,7 +21,6 @@ public class PostAdapter extends ArrayAdapter<RedditPost> {
 
     public PostAdapter(Activity context, List<RedditPost> redditPosts){
         super(context,0,redditPosts);
-
     }
 
     @NonNull
