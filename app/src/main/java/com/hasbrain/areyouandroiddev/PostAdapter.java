@@ -42,7 +42,7 @@ public class PostAdapter extends ArrayAdapter<RedditPost> {
         TextView comment = (TextView) listItemView.findViewById(R.id.no_comment);
         comment.setText(""+currentRedditPost.getCommentCount());
 
-
+        //abc
         return listItemView;
     }
 }
