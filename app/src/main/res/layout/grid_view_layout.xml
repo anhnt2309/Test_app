@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gird_relative">
+    <TextView
+        android:id="@+id/grid_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="author"/>
+    <TextView
+        android:id="@+id/grid_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="score"/>
+    <TextView
+        android:id="@+id/grid_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tilte"
+        android:layout_below="@id/grid_author"
+        android:textSize="30dp"
+        android:maxLines="3"
+        />
+    <TextView
+        android:id="@+id/grid_no_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid_title"
+        android:hint="1"/>
+    <TextView
+        android:id="@+id/grid_comment"
+        android:layout_toRightOf="@id/grid_no_comment"
+        android:layout_below="@id/grid_title"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments in "
+        />
+    <TextView
+        android:id="@+id/grid_domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid_title"
+        android:paddingLeft="2dp"
+        android:layout_toRightOf="@id/grid_comment"
+        android:hint="domain"/>
+</RelativeLayout>

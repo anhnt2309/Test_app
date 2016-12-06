@@ -1,9 +1,11 @@
 package com.hasbrain.areyouandroiddev.model;
 
+import java.io.Serializable;
+
 /**
  * Created by Jupiter (vu.cao.duy@gmail.com) on 10/8/15.
  */
-public class RedditPost {
+public class RedditPost implements Serializable {
     private String id;
     private String title;
     private int score;

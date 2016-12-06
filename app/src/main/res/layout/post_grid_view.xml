@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
-    tools:context="com.hasbrain.areyouandroiddev.PostListActivity">
+  >
 
-    <ListView
-        android:id="@+id/list_view"
+    <GridView
+        android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:numColumns="3"
         android:headerDividersEnabled="false"
-        android:divider="?android:attr/panelFullBackground" />
+         />
 </RelativeLayout>

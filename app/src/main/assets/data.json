@@ -2,7 +2,7 @@
   {
     "kind": "t3",
     "data": {
-      "domain": "self.androiddev",
+      "domain": null,
       "banned_by": null,
       "media_embed": {},
       "subreddit": "androiddev",
@@ -282,7 +282,7 @@
   {
     "kind": "t3",
     "data": {
-      "domain": "self.androiddev",
+      "domain": null,
       "banned_by": null,
       "media_embed": {},
       "subreddit": "androiddev",
